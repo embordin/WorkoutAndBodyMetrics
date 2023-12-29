@@ -17,11 +17,14 @@ Body Fat % is usually the most important metric for those who want weight loss. 
 
 The problem is that the electrical bioimpedance scale is typically inaccurate. Sometimes, it gives numbers that would show us as worse than pork bacon in terms of fat content. Specifically, in the case of the Garmin S2 scale, there is a possibility of minimizing such errors by manually adding reference data for body fat and weight. Both measures will make a sort of correction. Graphic 1 below shows when the correction was applied.
 ![image](https://github.com/embordin/WorkoutAndBodyMetrics/assets/103783579/63b8a88e-8048-4ceb-83a8-80e9c187936e)
+In Graph 1, Body Water (%) seems to mix up with fat. It would be the source of the error that almost all bioimpedance scale algorithms can’t properly sort out what fat and water are. Such an issue is related to the principle of function behind those kinds of measurement scales. In a simple way, bioimpedance analysis measures body composition based on the rate at which an electrical current passes through the body, in which fat tissue causes greater resistance – impedance – than muscles or lean tissue. In that way, the scale estimates the body composition.
 
 Graph 2 also suggests that body fat and water might have a correlation. It applied a filter to the database selection metrics after the fat correction. Graph 3 shows the results below.
 ![image](https://github.com/embordin/WorkoutAndBodyMetrics/assets/103783579/bd7c3673-3835-4754-b078-2619c7c02078)
 ![image](https://github.com/embordin/WorkoutAndBodyMetrics/assets/103783579/7b557a7d-acc1-408f-8fff-8defa51dcf6f)
 
+The correlation sounds strong and almost reached 1 as R-squared. Based on that, the purpose is to analyze body fat with body water. It would bring insights into how diet and workout have been working to reduce weight. Graph 4 shows how the metric performs.
+![image](https://github.com/embordin/WorkoutAndBodyMetrics/assets/103783579/9a04b28f-7122-4e21-a577-665d617b9768)
 
 
-In Graph 1, Body Water (%) seems to mix up with fat. It would be the source of the error that almost all bioimpedance scale algorithms can’t properly sort out what fat and water are. Such an issue is related to the principle of function behind those kinds of measurement scales. In a simple way, bioimpedance analysis measures body composition based on the rate at which an electrical current passes through the body, in which fat tissue causes greater resistance – impedance – than muscles or lean tissue. In that way, the scale estimates the body composition.
+
