@@ -9,3 +9,11 @@ The current exploratory data analysis (EDA) aims to bring insights and ideas to 
 Database:
 For that purpose, a dataset of almost one year of body bioimpedance (fat, water, muscle, and bone) and weight was tracked in the morning before breakfast. The scale is a Garmin Scale S2
 For the execution of EDA: Python (Google Colab); packages: Pandas (data manipulation); Plottly (data visualization) and Statsmodels (correlation and linear regression).
+
+Results:
+Body Fat % is usually the most important metric for those who want weight loss. The idea behind this is to decrease body weight by reducing body fat preferentially rather than body skeletal muscle. Based on that, body fat would be more relevant to track than weight loss itself.
+
+The problem is that the electrical bioimpedance scale is typically inaccurate. Sometimes, it gives numbers that would show us as worse than pork bacon in terms of fat content. Specifically, in the case of the Garmin S2 scale, there is a possibility of minimizing such errors by manually adding reference data for body fat and weight. Both measures will make a sort of correction. Graphic 1 below shows when the correction was applied.
+![image](https://github.com/embordin/WorkoutAndBodyMetrics/assets/103783579/a85e622e-92af-48e8-9c04-78c4597ec7d4)
+ 
+In Graph 1, Body Water (%) seems to mix up with fat. It would be the source of the error that almost all bioimpedance scale algorithms can’t properly sort out what fat and water are. Such an issue is related to the principle of function behind those kinds of measurement scales. In a simple way, bioimpedance analysis measures body composition based on the rate at which an electrical current passes through the body, in which fat tissue causes greater resistance – impedance – than muscles or lean tissue. In that way, the scale estimates the body composition.
