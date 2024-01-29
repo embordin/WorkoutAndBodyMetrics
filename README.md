@@ -26,5 +26,6 @@ Graph 2 also suggests that body fat and water might have a correlation. It appli
 The correlation sounds strong and almost reached 1 as R-squared. Based on that, the purpose is to analyze body fat with body water. It would bring insights into how diet and workout have been working to reduce weight. Graph 4 shows how the metric performs.
 ![image](https://github.com/embordin/WorkoutAndBodyMetrics/assets/103783579/9a04b28f-7122-4e21-a577-665d617b9768)
 
+It is also interesting to note the ratio between body water (kg) and body weight (kg). Before carrying out the calculation, the body water and body fat should be recalculated in the function of the body weight (kg). The graph 4 below shows the variation of both metrics.
 
 
